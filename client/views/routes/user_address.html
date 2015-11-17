@@ -1,0 +1,22 @@
+<div id= "user_address" class="col-md-8 col-md-offset-2 text-center">
+    <h1>User Address Directory</h1>
+    <!--<ng-model="user.name"></ng-model>-->
+    <div class="container">
+        <!--<form id="entryForm">-->
+        <!--<div class="form-group">-->
+            <!--<label for="userName">Name: </label>-->
+            <!--<input ng-model="user.name" type="text" id="userName" name="userName" placeholder="Enter Name: ">-->
+        <!--</div>-->
+        <select ng-model="selection" ng-options="user.name for user in userArray"></select>
+
+        <button ng-click="clickButton(user)" id="submit" class="btn btn-info">Submit</button>
+    <p>{{user.name}}</p>
+
+    <!--<div ng-repeat="people in userArray">-->
+        <!--<div class="col-md-10 well">-->
+            <!--<p class="lead">{{user.name}}</p>-->
+</div>
+        </div>
+        </div>
+    </div>
+
